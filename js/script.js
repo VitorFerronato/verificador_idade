@@ -40,14 +40,14 @@ function verificar(){
                img.style.borderRadius = '50%'
                img.style.marginTop = '10px'
                document.body.style.background = '#418EF2'
-           } else{
-               //Idoso
-               img.setAttribute('src','/js/homemVelho.jpg')
-               img.style.height = '200px'
-               img.style.width = '150px'
-               img.style.borderRadius = '50%'
-               img.style.marginTop = '10px'
-               document.body.style.background = '#345573'
+        //    } else{
+        //        //Idoso
+        //        img.setAttribute('src','/js/homemVelho.jpg')
+        //        img.style.height = '200px'
+        //        img.style.width = '150px'
+        //        img.style.borderRadius = '50%'
+        //        img.style.marginTop = '10px'
+        //        document.body.style.background = '#345573'
            }
         
         } else if (fsex[1].checked){
