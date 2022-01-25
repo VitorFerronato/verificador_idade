@@ -44,7 +44,7 @@ function verificar(){
                //Idoso
                img.setAttribute('src','/js/idosoHomem.jpg')
                img.style.height = '200px'
-               img.style.width = '200px'
+               img.style.width = '150px'
                img.style.borderRadius = '50%'
                img.style.marginTop = '10px'
                document.body.style.background = '#345573'
@@ -63,24 +63,24 @@ function verificar(){
            }else if (idade < 21) {
               //Jovem
               img.setAttribute('src','./js/jovemMulher.jpg')
-              img.style.height = '250px'
-              img.style.width = '250px'
+              img.style.height = '200px'
+              img.style.width = '200px'
               img.style.borderRadius = '50%'
               img.style.marginTop = '10px'
               document.body.style.background = '#C19F9B'
            } else if (idade < 50){
               //Adulto
               img.setAttribute('src','./js/adultoMulher.jpg')
-              img.style.height = '250px'
-              img.style.width = '250px'
+              img.style.height = '200px'
+              img.style.width = '200px'
               img.style.borderRadius = '50%'
               img.style.marginTop = '10px'
               document.body.style.background = '#AC8B82'
            } else{
               //Idoso
               img.setAttribute('src','./js/idosoMulher.jpg')
-              img.style.height = '250px'
-              img.style.width = '250px'
+              img.style.height = '200px'
+              img.style.width = '200px'
               img.style.borderRadius = '50%'
               img.style.marginTop = '10px'
               document.body.style.background = '#7D5263'
