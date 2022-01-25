@@ -42,7 +42,7 @@ function verificar(){
                document.body.style.background = '#418EF2'
            } else{
                //Idoso
-               img.setAttribute('src','/js/idosoHomem.jpg')
+               img.setAttribute('src','/js/homemVelho.jpg')
                img.style.height = '200px'
                img.style.width = '150px'
                img.style.borderRadius = '50%'
