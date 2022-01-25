@@ -1,27 +1,120 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
 body{
-    background-color: rgba(0, 0, 255, 0.555);
-    font: normal 15pt arial ;
-}
-
-header{
-    color: white;
+    background-color: #2f3140c4;
+    margin: 0;
     text-align: center;
-
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
 }
 
-section{
+.main-content{
     background-color: white;
     border-radius: 10px;
-    padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    padding: 10px;
+}
+
+
+h1{
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input{
+    margin: 20px;
+}
+
+.input-nasc{
+    position: relative;
+}
+
+.main-title{
+    font: normal 20pt arial ;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.main-subtitle{
+    font: normal 16pt arial;
+}
+
+#txtano{
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.555);
+    outline: none;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#txtano:hover{
+    width: 80%;
+}
+
+#txtano::placeholder{
+    color: rgba(0, 0, 0, 0.322);
+    font-size: 10pt;
+}
+
+.btn{
+    width: 30%;
+    height: 25px;
+    letter-spacing: 2px;
+    background: rgba(8, 82, 241, 0.555);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgba(33, 100, 245, 0.795);
+}
+
+#res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#res img{
+    width: fit-content; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: .7;
 }
 
 footer{
-    color: white;
-    text-align: center;
-    font-style: italic;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   margin-top: 5px;
+   padding: 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
 }

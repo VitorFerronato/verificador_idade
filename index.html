@@ -4,38 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de idade</title>
+    <!--Icones boot-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <title>Teste de idade</title>
 
 </head>
 <body>
-    <header>
-        <h1>Verificador de idade</h1>
-    </header>
-    
-    <section>
-        <div>
-            <p>Ano de nascimento
-            <input type="number" name="txtano" id="txtano">
-            </p>
-            <p>Sexo:
-                <input type="radio" name="radsex" id="mas" checked>
-                <label for="mas">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-            </p>
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
+     <h1>Verificador de idade</h1>    
+    <section class="main-content">
+            <div class="input input-nasc">
+                <p class="main-title">Ano de nascimento</p>
+                <i class="bi bi-calendar" style= 'color: rgba(0, 0, 255, 0.555); position: absolute; left: 50; bottom: 2px;'></i><input type="number" name="txtano" id="txtano" placeholder="Ex: 1990, 2015">
+            </div>
+
+            <div class="input input-sex">
+                <p class="main-title">Gênero:</p>
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label class="main-subtitle" for="mas">Masculino | </label>
+                    
+                    <label class="main-subtitle"  for="fem">Feminino</label>
+                    <input type="radio" name="radsex" id="fem">
+            </div>
             
-        </div>
+            <div class="input input-btn">
+                <input class="btn" type="button" value="Verificar"  onclick="verificar()">
+            </div>
+          
+            
         <div id="res">
-            Preencha os dados acima para ver o resultado!
+            <p>Preencha os dados acima para ver o resultado!</p>
         </div>
+
     </section>
     
     <footer>
-        <p>&copy; Vitor Ferronato</p>
+        <p><a href="https://github.com/VitorFerronato" target="_blank"> &copy; Vitor Ferronato</a></p>
+        <img src="#" alt="">
     </footer>
     <script src="./js/script.js"></script>
 </body>
