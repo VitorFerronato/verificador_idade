@@ -18,27 +18,35 @@ function verificar(){
            genero = 'Homem'
            if (idade >= 0 && idade < 10){
                //Criança
-               img.setAttribute('src','./js/criancahomem.png')
-               img.style.height = '250px'
-               img.style.width = '250px'
+               img.setAttribute('src','./js/criancaHomem.jpg')
+               img.style.height = '200px'
+               img.style.width = '200px'
+               img.style.borderRadius = '50%'
+               img.style.marginTop = '10px'
                document.body.style.background = '#C2C9F2'
            } else if (idade < 21) {
                //Jovem
-               img.setAttribute('src','./js/jovemhomem.png')
-               img.style.height = '250px'
-               img.style.width = '250px'
+               img.setAttribute('src','./js/jovemHomem.jpg')
+               img.style.height = '200px'
+               img.style.width = '133px'
+               img.style.borderRadius = '50%'
+               img.style.marginTop = '10px'
                document.body.style.background = '#91B2F2'
            } else if (idade < 50){
                //Adulto
-               img.setAttribute('src','./js/adultohomem.png')
-               img.style.height = '250px'
+               img.setAttribute('src','./js/adultoHomem.jpg')
+               img.style.height = '200px'
                img.style.width = '250px'
+               img.style.borderRadius = '50%'
+               img.style.marginTop = '10px'
                document.body.style.background = '#418EF2'
            } else{
                //Idoso
-               img.setAttribute('src','/js/idosohomem.png')
-               img.style.height = '250px'
-               img.style.width = '250px'
+               img.setAttribute('src','/js/idosoHomem.jpg')
+               img.style.height = '200px'
+               img.style.width = '200px'
+               img.style.borderRadius = '50%'
+               img.style.marginTop = '10px'
                document.body.style.background = '#345573'
            }
         
@@ -46,32 +54,40 @@ function verificar(){
            genero = 'Mulher'
            if (idade >= 0 && idade < 10){
               //Criança
-              img.setAttribute('src','./js/criancamulher.png')
-              img.style.height = '250px'
-              img.style.width = '250px'
+              img.setAttribute('src','./js/criancaMulher.jpg')
+              img.style.height = '200px'
+              img.style.width = '200px'
+              img.style.borderRadius = '50%'
+              img.style.marginTop = '10px'
               document.body.style.background = '#DDB3AF'
            }else if (idade < 21) {
               //Jovem
-              img.setAttribute('src','./js/jovemmulher.png')
+              img.setAttribute('src','./js/jovemMulher.jpg')
               img.style.height = '250px'
               img.style.width = '250px'
+              img.style.borderRadius = '50%'
+              img.style.marginTop = '10px'
               document.body.style.background = '#C19F9B'
            } else if (idade < 50){
               //Adulto
-              img.setAttribute('src','./js/adultomulher.png')
+              img.setAttribute('src','./js/adultoMulher.jpg')
               img.style.height = '250px'
               img.style.width = '250px'
+              img.style.borderRadius = '50%'
+              img.style.marginTop = '10px'
               document.body.style.background = '#AC8B82'
            } else{
               //Idoso
-              img.setAttribute('src','./js/idosomulher.png')
+              img.setAttribute('src','./js/idosoMulher.jpg')
               img.style.height = '250px'
               img.style.width = '250px'
+              img.style.borderRadius = '50%'
+              img.style.marginTop = '10px'
               document.body.style.background = '#7D5263'
            }
        }
        res.style.textAlign = 'center'
-       res.innerHTML = `Detectamos ${genero} com ${idade} anos`
+       res.innerHTML = `Você é um/uma ${genero} com ${idade} anos`
        res.appendChild(img)
     }
 }
