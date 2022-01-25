@@ -30,6 +30,11 @@ h1{
     margin: 20px;
 }
 
+.input-sex div{
+    display: flex;
+    align-items: center;
+}
+
 .input-nasc{
     position: relative;
 }
@@ -117,4 +122,17 @@ footer{
 footer p {
     margin: 0;
     padding: 0;
+}
+
+@media(max-width: 550px){
+    body{
+        text-align: center;
+    }
+    
+    .main-content{
+        width: 90vw;
+        margin: auto;
+        padding: 5px;
+        box-sizing: border-box;
+    }
 }
